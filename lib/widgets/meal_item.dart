@@ -33,9 +33,19 @@ class MealItem extends StatelessWidget {
             },
             child: Stack(
               children: [
-                FadeInImage(
-                    placeholder: MemoryImage(kTransparentImage),
-                    image: NetworkImage(meal.imageUrl)),
+ClipRRect(
+  borderRadius: BorderRadius.circular(10), // Optional: Adds rounded corners
+  child: SizedBox(
+    height: 250, // Fixed height
+    width: double.infinity, // Makes it occupy the full width of its parent
+    child: FadeInImage(
+      fit: BoxFit.cover, // Ensures the image covers the entire area
+      placeholder: MemoryImage(kTransparentImage),
+      image: NetworkImage(meal.imageUrl),
+    ),
+  ),
+),
+
                 Positioned(
                   bottom: 0,
                   left: 0,

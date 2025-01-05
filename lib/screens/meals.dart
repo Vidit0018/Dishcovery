@@ -16,15 +16,16 @@ class MealsScreen extends StatelessWidget{
     Navigator.push(context, MaterialPageRoute(builder:(ctx)=>MealDetailsScreen(meal: meal,onToggleFavorite: onToggleFavorite,) ));
   }
 
+
   @override
   Widget build(BuildContext context) {
     Widget content= ListView.builder(
-      padding:EdgeInsets.all(16),
+      padding:EdgeInsets.all(4),
       itemCount: meals.length,
       itemBuilder: (ctx,index)=>Column(
         children: [
            Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 8.0),
+      padding: const EdgeInsets.symmetric(horizontal: 4.0,),
       child: MealItem(meal: meals[index],onSelectMeal: onSelectMeal,), // Ensure this contains the Card
     ),
           const SizedBox(height: 16,)
