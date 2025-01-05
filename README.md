@@ -1,16 +1,4 @@
-# meals_app
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# DishCovery
+A versatile food app featuring dishes from various cuisines, organized into multiple categories. Each dish includes detailed information on ingredients, cooking steps, and preparation time. Users can mark favorites for quick access via a bottom navbar and apply dietary filters like gluten-free, lactose-free, vegetarian, and vegan to customize their experience.
+![Demo GIF]([https://drive.google.com/uc?id=1AbcDeFGH123](https://drive.google.com/file/d/1x7IpwKYT5eeDr4ZwYnVUQToc7NSSg1a_/view?usp=sharing))
+App Release : https://drive.google.com/file/d/1XXD3vr-0gdtMK9xmV7M1GlzI2DkTpWhI/view?usp=sharing
