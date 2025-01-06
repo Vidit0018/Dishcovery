@@ -20,7 +20,8 @@ class MealDetailsScreen extends ConsumerWidget{
       SnackBar(content: Text(message))
     );
   }
-
+  final favoriteMeals = ref.watch(favoriteMealsProvider);
+  final isFavorite= favoriteMeals.contains(meal);
     return Scaffold(
       appBar: AppBar(
         title: Text(meal.title),
@@ -34,7 +35,7 @@ class MealDetailsScreen extends ConsumerWidget{
               _showInfoMessage('Item Removed from Favorites');
             }
 
-          }, icon: const Icon(Icons.star)),
+          }, icon:  Icon(isFavorite? (Icons.star) : (Icons.star_border))),
         ],
       ),
       body:  SingleChildScrollView(
