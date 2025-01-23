@@ -6,4 +6,4 @@ A versatile food app featuring dishes from various cuisines, organized into mult
 ![Untitled video - Made with Clipchamp (2)](https://github.com/user-attachments/assets/e8e67378-48a3-487f-b1a4-d44c3d04a7ad)
 
 
-App Release : https://drive.google.com/file/d/1XXD3vr-0gdtMK9xmV7M1GlzI2DkTpWhI/view?usp=sharing
+App Release : https://drive.google.com/file/d/1F6NC04zFNSsaZvJSmR0q7kw1K2Vr3iGD/view?usp=sharing
